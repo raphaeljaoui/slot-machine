@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+
+
+        <title>Machine à sous</title>
+<link rel="stylesheet" href=index.css/machine.css>
+    </head>
+
+    <body>
+        <div align="center">
+           <div class="titre">
+             
+             <br>
+              <br>
+               <img src="pot.png">
+           </div>
+         <div class="machine">
+            <div class="image">
+            <img id="img_sous_1" src="img_0.png" />
+            <img id="img_sous_2" src="img_1.png" />
+            <img id="img_sous_3" src="img_2.png" />
+            <img id="img_sous_4" src="img_3.png" />
+            </div>
+            <div class="credit" style = "float:right">
+                <p><font color="white"><font size="5pt"> crédit</font></font>  </p><input id="credit" type="text" value="20" disabled="disabled"><br />
+             </div>
+             <div class="score" style= "float:left">
+                 <p> <font color="white"><font size="5pt">score</font></font></p><input id="highscore" type="text" value="20" disabled="disabled">
+             </div>
+            
+             <div class="bouton">
+                 <p><font size="4pt"><font color="white">Clique </font></font> </p>
+            <button class="go" onclick="machineASous();" id="boutonGO">GO !</button>
+        </div>
+            <div class="p">
+             <p class="italic">
+             <br>
+             <Font size=6pt>Viens tenter ta chance</Font></p>
+            </div>
+        </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="machine.js"></script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+body{
+    color: white;
+    background-image: url(../image/imagespoker-32.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
+.titre{
+    background-image: url(../image/argent-une.jpg);
+    width: 800px;
+    height: 200px;
+}
+.machine{
+    background-color: hsla(351, 12%, 27%, 0.86);
+    width: 800px;
+    height: 100px;
+}
+    .machine1{
+ background-color: white;
+        height: 300px;
+        margin-right: 50px;
+        margin-left: 50px;
+    
+}
+button{
+  border-radius: 60%;
+margin-left: 500px; 
+
+}
+.img{
+    height:180px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right:50px;
+
+
+
+}
+.credit{
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 300px;
+
+}
+
+table{
+   
+    background-color: white;
+    height: 300px;
+    
+}
