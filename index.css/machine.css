@@ -9,7 +9,7 @@ body{
 }
 .machine{
     width: 800px;
-    height: 500px;
+    height: 600px;
     background-color:rgba(33, 33, 33, 0.6);
 }
 .credit{
@@ -21,7 +21,7 @@ body{
 .bouton{
     margin-top: 100px;
     margin-left: 500px;
-    
+    height: 300;
 }
 
 .go{
@@ -42,4 +42,25 @@ body{
     margin-right: 30px;
     margin-left: 30px;
     height: 80px;
+}
+.jackpot{
+    margin-top: 10px;
+}
+.italic{
+    font-family:sans-serif;
+}
+ .eun {
+        height: 400px;
+        width: 300px;
+        background: rgba(34, 31, 31, 0.47);
+     font-family:fantasy;
+     text-align: center;
+     text-decoration: none;
+     color: white;
+     margin-top: -800px;
+     display: none;
+     
+    }
+ul {
+    list-style: none;
 }

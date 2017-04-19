@@ -15,7 +15,7 @@ function machineASous(){
 	document.getElementById("img_sous_2").src = 'img_' + x + '.png';
 	document.getElementById("img_sous_3").src = 'img_' + y + '.png';
 	document.getElementById("img_sous_4").src = 'img_' + z + '.png';
-	
+   
 	creditJoueur -= 1;
 	
 
@@ -26,11 +26,15 @@ function machineASous(){
 	
 	if(w == x && x == y && y== z){
 		creditJoueur += 5;
+        $('.eun ul').append('<li>'+"+5 crédit"+'<li>'+'<br>');
     }
         if(w == x && x == y){
 		creditJoueur += 3;
+                $('.eun ul').append('<li>'+"+3 crédit"+'<li>'+'<br>');
 	}
-   
+   else{
+        $('.eun ul').append('<li>'+"-1 crédit"+'<li>'+'<br>');
+   }
 
 	
 	
@@ -40,3 +44,13 @@ function machineASous(){
 	document.getElementById("credit").value = creditJoueur;
 	document.getElementById("highscore").value = highscore;
 }
+
+
+      $('.resultat').click(function(){
+       $('.eun').slideToggle("fast");
+    });
+$(document).ready(function () {
+          if (!$.browser.webkit) {
+              $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+          }
+      });
